@@ -4,13 +4,15 @@
 
 ## Проекты
 
-- [Task Tracker](https://github.com/bogi-lyceya-44/task-tracker) (WORK IN PROGRESS)
+- [Task Tracker](https://github.com/bogi-lyceya-44/task-tracker)
+- [Task Tracker Frontend](https://github.com/bogi-lyceya-44/task-tracker-front)
 - Auditor
 
 ## Что используем?
 
-- gRPC/REST
-- Docker - контейнеризация
+### Бэкенд
+
+- gRPC, REST
 - Swagger - API документация
 
 - Zap - логгинг
@@ -19,10 +21,17 @@
 - pprof - профилирование
 
 - goose - миграции
-- gomock - моки
+- mockery - моки
 
 - Kafka - брокер сообщений
 - PostgreSQL - основная БД
+
+- Docker - контейнеризация
+
+### Фронтенд
+
+- TypeScript
+- Vue.js
 
 ### Возможно в будущем:
 
